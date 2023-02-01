@@ -1,7 +1,6 @@
 import React from "react";
-import cardBack from "../assets/card_back.png"
+import cardBack from "../assets/empty_card_frame.png"
 
-//also import scss file once you style things
 
 export default function Card(props) {
   
