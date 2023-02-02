@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "./Card";
-//also import scss file once you style things
+
 
 export default function CardZone(props) {
   
   return (
-    <div className="card-zone">
+    <div className="card-zone" onDragOver={(e) => e.preventDefault()}>
       <div className="card-zone-top">
         <Card 
         position="1"

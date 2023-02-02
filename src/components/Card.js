@@ -7,7 +7,8 @@ export default function Card(props) {
   return (
     
     <img 
-    className="card"
+    className="Card"
+    mode="EMPTY"
     src={cardBack}
     alt="Card Back"
     />
