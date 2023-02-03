@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const useGameState = (initial) => {
-  const [player, setPlayer] = useState(1);
+  const [player, setPlayer] = useState(1); //self or opp may make more sense
   const [deck, setDeck] = useState([]);
   const [hand, setHand] = useState([]);
   const [turn, setTurn] = useState(0);

@@ -18,13 +18,22 @@
 
   
 }
+.card-zone-top {
+  display: flex;
 
+}
+
+.card-zone-bottom {
+  display: flex;
+
+}
 .Lane {
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 3px solid black;
   background-color: #85709d;
+  width: 28em;
 
 }
 
@@ -39,11 +48,6 @@
   width: 100px;
 }
 
-.Card {
-  height: 200;
-  width: 120px;
-  padding: 1em
-}
 
 .Deck {
   height: 200;
